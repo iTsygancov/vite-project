@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "phone": "+79999999999",
+      "email": "jane.smith@example.com",
+      "confirmEmail": "jane.smith@example.com",
+      "country": "Canada",
+      "state": "Ontario",
+      "city": "Toronto",
+      "agreement": "license",
+      "createdDate": "15.01.2024",
+      "updatedDate": "16.01.2024",
+      "checkboxGroup": {
+        "acceptLicenseTerms": true,
+        "sendNewsByEmail": true
+      }
+    },
+    {
+      "id": "2",
+      "name": "Bob Johnson",
+      "phone": "+79999999999",
+      "email": "bob.johnson@example.com",
+      "confirmEmail": "bob.johnson@example.com",
+      "country": "United Kingdom",
+      "state": "England",
+      "city": "London",
+      "agreement": "mutual",
+      "createdDate": "16.01.2024",
+      "updatedDate": "17.01.2024",
+      "checkboxGroup": {
+        "acceptLicenseTerms": false,
+        "sendNewsByEmail": false
+      }
+    }
+  ]
+}
